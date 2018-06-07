@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How can you access the state of a component from inside of a member function?",
+    "no": 1,
+    "answers": [
+      {
+        "key": 1,
+        "value": "this.getState()",
+        "correct": "false"
+      },
+      {
+        "key": 2,
+        "value": "this.prototype.stateValue",
+        "correct": "false"
+
+      },
+      {
+        "key": 3,
+        "value": "this.state",
+        "correct": "true"
+
+      },
+      {
+        "key": 4,
+        "value": "this.values",
+        "correct": "false"
+
+      }
+    ]
+  },
+  {
+    "question": "Inline styling in React can be done as:",
+    "no": 2,
+    "answers": [
+      {
+        "key": 1,
+        "value": "style:{{}}",
+        "correct": "false"
+
+      },
+      {
+        "key": 2,
+        "value": "style:{}",
+        "correct": "true"
+
+      },
+      {
+        "key": 3,
+        "value": "style:''",
+        "correct": "false"
+
+      },
+      {
+        "key": 4,
+        "value": "All",
+        "correct": "false"
+
+      }
+    ]
+  },
+  {
+    "question": "For classless component we use?",
+    "no": 3,
+    "answers": [
+      {
+        "key": 1,
+        "value": "functions",
+        "correct": "true"
+      },
+      {
+        "key": 2,
+        "value": "classes",
+        "correct": "false"
+
+      },
+      {
+        "key": 3,
+        "value": "JSX",
+        "correct": "false"        
+      },
+      {
+        "key": 4,
+        "value": "None",
+        "correct": "false"        
+      }
+    ]
+  }
+]
