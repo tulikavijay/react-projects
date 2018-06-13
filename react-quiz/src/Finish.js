@@ -1,5 +1,5 @@
-import React,{Component} from 'react';
-import {Collection,CollectionItem,Row,Col,CardPanel,Button} from 'react-materialize';
+import React from 'react';
+import {Row,Col,CardPanel,Button} from 'react-materialize';
 
 
 export const Finish =(props)=>{

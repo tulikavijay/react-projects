@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
+import {Button} from 'react-materialize';
 class StartPage extends Component{
-  constructor(props){
-  	super(props);
-  }
   render(){
   	return (
   	<div>
@@ -15,7 +13,7 @@ class StartPage extends Component{
           <h5 class="header col s12 light">Answer these 10 basic react questions with 10 points each.</h5>
         </div>
         <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1" onClick={()=>this.props.handleState('running')} >Get Started</a>
+          <Button waves='light' onClick={()=>this.props.handleState('running')}>Get Started</Button>
         </div>
         </div>
        </div>

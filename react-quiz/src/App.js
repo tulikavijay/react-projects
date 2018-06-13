@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Navbar,NavItem,Button, Icon} from 'react-materialize';
+import {Navbar} from 'react-materialize';
 import Banner from './Banner.js';
 
 class App extends Component {
