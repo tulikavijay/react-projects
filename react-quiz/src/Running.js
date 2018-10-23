@@ -7,7 +7,7 @@ class Running extends Component{
     this.state={ques:1,score:0,isLoaded:false,items:[]};
   }
   componentDidMount() {
-    fetch("//api.jsonbin.io/b/5b191af07a973f4ce57854f3")
+    fetch("//api.jsonbin.io/b/5bcefbce51e8b664f2c04383")
       .then(res => res.json())
       .then(
         (result) => {
